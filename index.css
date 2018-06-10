@@ -1,0 +1,311 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: #f7f7f5;
+}
+
+.header {
+    width: 100%;
+    height: 44px;
+    background: #2f2f2f;
+}
+
+.content {
+    height: 44px;
+    margin: 0 75px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 74px;
+    height: 20px;
+    margin: 8px 0;
+    background: url(logo.png) 74px 20px;
+}
+
+.menu {
+    width: 666px;
+    height: 44px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu a {
+    font-size: 14px;
+    line-height: 44px;
+    color: #fff;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.menu .store {
+    color: #aaa;
+}
+
+.user {
+    width: 110px;
+    height: 44px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.user .search {
+    width: 14px;
+    height: 14px;
+    margin-top: 16px;
+    background: url(search.png) no-repeat;
+}
+
+.user .person {
+    width: 14px;
+    height: 14px;
+    margin-top: 16px;
+    background: url(user.png) no-repeat;
+}
+
+.store-title {
+    width: 1361px;
+    height: 133px;
+    padding: 30px 0 0;
+    margin: 0 auto;
+}
+
+.title-logo {
+    width: 429px;
+    height: 65px;
+    margin: 0 385px;
+    background: url(title-logo.png);
+}
+
+.title-text {
+    width: 1200px;
+    height: 21px;
+    padding: 30px 0 17px;
+
+}
+
+.title-text1 {
+    width: 480px;
+    height: 21px;
+    float: right;
+    margin-right: 178px;
+}
+
+.title-text1 a {
+    text-decoration: none;
+    margin-left: 38px;
+    float: right;
+    color: #6c7880;
+    font-size: 12px;
+    line-height: 21px;
+}
+
+.title-text2 {
+    width: 190px;
+    height: 21px;
+    float: right;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title-text2 a {
+    text-decoration: none;
+    color: #4c4c4c;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.wrapper {
+    width: 1200px;
+    height: 450px;
+    margin: 0 auto 10px;
+}
+
+.wrapper img {
+    width: 1200px;
+    height: 450px;
+}
+
+.box {
+    width: 1200px;
+    height: 150px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box img {
+    width: 293px;
+    height: 140px;
+}
+
+.floor-list {
+    width: 1200px;
+    height: 608px;
+    margin: 0 auto;
+}
+
+.title {
+    width: 1200px;
+    height: 87px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.item-title {
+    width: 1200px;
+    height: 24px;
+    padding: 38px 0 25px;
+    text-align: center;
+    font-size: 24px;
+    line-height: 1px;
+    color: #333;
+    font-weight: normal;
+}
+
+.more-icon {
+    position: absolute;
+    bottom: 40px;
+    right: 0;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.item-img {
+    width: 1200px;
+    height: 521px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.item {
+    width: 394px;
+    height: 511px;
+    text-align: center;
+    background: #ffffff;
+}
+
+.item img {
+    width: 230px;
+    height: 230px;
+    margin-top: 58px;
+}
+
+.item h3 {
+    padding-top: 34px;
+    margin-bottom: 16px;
+    font-weight: normal;
+    font-size: 19px;
+}
+
+.item h4 {
+    margin-bottom: 53px;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.item .price {
+    color: #f51919;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.products {
+    width: 1200px;
+    height: 867px;
+    margin: 0 auto;
+}
+
+.parts {
+    padding-bottom: 70px;
+}
+
+.product {
+    width: 1200px;
+    height: 780px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.product1 {
+    width: 595px;
+    height: 380px;
+    background: url(https://shopstatic.vivo.com.cn/vivoshop/commodity/20180531/20180531211148847492_original.png) 595px 380px;
+}
+
+.product2 {
+    width: 293px;
+    height: 380px;
+    margin-bottom: 10px;
+    text-align: center;
+    background: #ffffff;
+}
+
+.product2 img {
+    width: 172px;
+    height: 172px;
+    margin-top: 43px;
+}
+
+.product2 h4 {
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 22px;
+    margin-bottom: 12px;
+}
+
+.product2 h5 {
+    font-size: 12px;
+    margin-bottom: 41px;
+    font-weight: normal;
+}
+
+.product2 .price {
+    font-size: 16px;
+    font-weight: normal;
+    color: #f51919;
+}
+
+.more-icon a {
+    text-decoration: none;
+    color: #000;
+    margin-left: 22px;
+}
+
+.shop-footer {
+    height: 89px;
+    padding: 30px 0px 70px 0;
+    background: #fff;
+    text-align: center;
+}
+
+.shop-items {
+    width: 1200px;
+    height: 28px;
+    padding: 30px 0px;
+    margin: 0 auto;
+    display: flex;
+    border-bottom: 1px solid #dedede;
+}
+
+.shop-item {
+    width: 300px;
+    height: 28px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.wrap {
+    width: 1200px;
+    height: 360px;
+    margin: 0 auto;
+    border: 1px solid #437af5;
+}
+
+
