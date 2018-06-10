@@ -67,7 +67,6 @@ body {
 }
 
 .store-title {
-    width: 1361px;
     height: 133px;
     padding: 30px 0 0;
     margin: 0 auto;
@@ -83,6 +82,7 @@ body {
 .title-text {
     width: 1200px;
     height: 21px;
+    margin: auto;
     padding: 30px 0 17px;
 
 }
@@ -305,7 +305,7 @@ body {
     width: 1200px;
     height: 360px;
     margin: 0 auto;
-    border: 1px solid #437af5;
+    /*border: 1px solid #437af5;*/
 }
 
 
